@@ -1,0 +1,119 @@
+.mainContent {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 6.25rem;
+}
+
+.mainContent .presentation .textContent{
+  margin-top: 40px;
+}
+
+.mainContent .presentation .textContent strong {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.8rem;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--grey);
+}
+
+.mainContent .presentation .textContent h1 {
+  font-size: 5rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 5.25rem;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--grey);
+}
+
+.mainContent .presentation button {
+  margin-top: 100px;
+  height: 65px;
+  width: 310px;
+  border-radius: 20px;
+  border: none;
+  background-color: var(--dark-grey);
+
+  font-size: 1.5rem;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1.8rem;
+  letter-spacing: 0em;
+}
+
+.mainContent .presentation button:hover {
+  transition: 200ms;
+  background-color: var(--grey);
+}
+
+.mainContent .presentation .socialMedia {
+  display: flex;
+  width: 172px;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 150px;
+}
+
+.mainContent .presentation .socialMedia a img:hover {
+  transition: 200ms;
+  transform: translateY(-4px);
+  cursor: pointer;
+}
+
+.mainContent .avatar img{
+  height: 627.3px;
+  width: 634.5px;
+}
+
+
+@media(max-width: 600px) {
+  .mainContent .presentation .textContent h1 {
+    font-size: 4rem;
+  }
+
+  .mainContent .avatar img{
+    height: 30rem;
+  }
+}
+
+
+
+@media(max-width: 1180px) {
+  .mainContent {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+  
+    margin-top: 6.25rem;
+  }
+
+  .mainContent .presentation button {
+    margin-top: 3rem;
+  }
+
+  .mainContent .avatar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mainContent .presentation .socialMedia {
+    display: flex;
+    width: 172px;
+    align-items: center;
+    justify-content: space-between;
+  
+    margin-top: 2rem;
+  }
+}
+
+@media(max-width: 1450px){
+  .mainContent {
+  margin: 0 2rem;
+  }
+}

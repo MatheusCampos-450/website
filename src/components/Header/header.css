@@ -1,0 +1,71 @@
+.mainHeader {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 3.8rem;
+}
+
+.mainHeader .userLogo {
+  display: flex;
+  align-items: center;
+}
+
+.mainHeader .userLogo figure {
+  margin-right: 19px;
+
+  height: 55px;
+  width: 50px;
+}
+
+.mainHeader .userLogo h1 {
+  color: var(--grey);
+  width: 255px;
+}
+
+.menu {
+  width: 53rem;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu button {
+  background: none;
+  border: none;
+
+  color: var(--grey);
+}
+
+.menu button:hover {
+  transition: 200ms;
+  color: var(--dark-grey);
+}
+
+
+
+@media(max-width: 950px){
+  .mainHeader{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .menu {
+    display: none;
+  }
+}
+
+@media(max-width: 1250px) {
+  .menu {
+    justify-content: space-around;
+  }
+}
+
+@media(max-width: 1450px){
+  .mainHeader {
+    padding: 2rem;
+  }
+}

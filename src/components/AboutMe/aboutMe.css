@@ -1,0 +1,77 @@
+.aboutMe .about{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+}
+
+.aboutMe .about figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 15rem;
+}
+
+.aboutMe .about figure img {
+  height: 11.438rem
+}
+
+.aboutMe .about .name {
+  display: flex;
+  justify-content: center;
+}
+
+.aboutMe .about .name h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 0.9rem;
+
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 4.688rem;
+  letter-spacing: 0em;
+
+  color: var(--grey);
+
+  width: 17rem;
+}
+
+.aboutMe .about .name h1 + h1 {
+  color: var(--dark-grey);
+}
+
+.aboutMe .about p {
+  display: flex;
+  justify-content: center;
+
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.75rem;
+  letter-spacing: 0em;
+  text-align: center;
+
+  color: var(--grey);
+
+  margin-top: 1.5rem;
+}
+
+.aboutMe .hardSkills {
+  display: flex;
+  justify-content: center;
+  
+  margin-top: 6.75rem;
+}
+
+.aboutMe .hardSkills h1 {
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 4.688rem;
+  text-align: center;
+
+  color: var(--grey);
+}
